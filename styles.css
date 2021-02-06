@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400i&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(52, 143, 235);
+  font-family: 'Noto Serif';
+  font-style: normal;
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  }
+
+form {
+  background-color: rgb(220,220,220, .4);
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 1.5rem;
+ }
+
+.form-design {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-design label {
+  display: block;
+  margin-bottom: 10px;
+}
+ 
+.form-design input, 
+.form-design select {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-design input[type="radio"], 
+.form-design input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+
+.form-design textarea {
+  width: 100%;
+}
+
+ #submit {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 25px auto;
+  background-color: rgb(52, 143, 235);
+  
+}
+
+.btn:active {
+box-shadow: 2px 2px 2px;
+transform: translate(2px, 2px);
+}

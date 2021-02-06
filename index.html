@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+  <body>
+    <header>
+      
+      <div>
+      <h1 id="title">Fresh Start Health Services</h1>
+       <p id="description">Thank you for taking the time to help us improve our organization!</p>
+    </header>
+      </div>
+    
+ <form id="survey-form">
+   <div class="form-design">
+     <label id="name-label" for="name">Name</label>
+     <input type="text" id="name" class="input-design" placeholder="Enter Name Here" name="name" required>
+    </div>
+      
+      <div class="form-design">
+        <label id="email-label" for="name">Email</label>
+      <input type="text" id="email" placeholder="Enter Email Here" name="name" required>
+      </div>
+      
+      <div class="form-design">
+         <label id="number-label" for="number">Age (optional)</label>
+      <input type="number" id="number" min="14" max="99" placeholder="Enter Age Here" name="Age" required>
+      </div>
+      
+      <div class="form-design">
+    <label for ="dropdown">Which option best describes what services interest you the most?</label>
+        <select id="dropdown" for="dropdown">
+          <option value="Nutrition">Nutrition</option>
+          <option value="Training">Personal Training</option>
+          <option value="Mental Health">Mental Health</option>
+          <option value="Yoga">Yoga</option>
+         </select>
+        <div>
+        
+          <div class="form-design">
+            <label for="recommend">Would you recommend Fresh Start Health Services to a friend?</label>
+         <label for="recommend"><input type="radio" id="" name="yes-no">Yes</label>
+         <label for="recommend-2"><input type="radio" id="" name="yes-no">No</label>
+         <label for="recommend-3"><input type="radio" id="" name="yes-no">Not sure</label>
+          </div>
+          
+        <div class="form-design">
+  <label for="improved">What would you like to see improved?</label>
+        <label for="options"><input type="checkbox" name="options">More Appointment Options</label>
+         <label for="options"><input type="checkbox" name="options">More Articles</label>
+         <label for="options"><input type="checkbox" name="options">More Info about Nurtrition</label>
+         <label for="options"><input type="checkbox" name="options">More Appointment Options</label>
+          </div>
+          
+          <div form-design>
+        <label>Comments or Suggestions?</label>
+        <textarea name="comment" rows="4" cols="50" placeholder="Enter comments here..."></textarea>
+        </div>
+          
+          <div>
+  <button id="submit" class="btn" type="submit">Submit</submit>
+        </div>
+    </form>
+   </body>
